@@ -1,0 +1,70 @@
+name: Release tagged build
+
+on:
+  push:
+    tags: ["*"]
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    env:
+      VERSION: ${{ github.ref_name }}
+      RELEASE_VERSION: ${{ github.ref_name }}
+    steps:
+      - name: Checkout modpack repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 32
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3"
+          cache: "pip"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Mod dependencies
+        id: install
+        run: python download_mods.py
+        env:
+          CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        if: ${{ env.CURSEFORGE_TOKEN != '' && env.GH_TOKEN != '' }}
+
+      - name: Bundle modpack release
+        id: bundle
+        run: |
+          mkdir build
+          git archive -o "build/${GITHUB_REPOSITORY##*/}-${RELEASE_VERSION}-server.zip" HEAD
+        if: ${{ steps.install.outcome == 'success' }}
+
+      - name: Delete old release if exists
+        run: gh release delete --yes "${RELEASE_VERSION}"
+        if: ${{ steps.bundle.outcome == 'success' }}
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Release under current tag
+        run: |
+          PRERELEASE=""
+          if [[ "${RELEASE_VERSION}" =~ "-pre" ]]; then
+            PRERELEASE="--prerelease"
+          fi
+          export "CHANGELOG_FILE=$(mktemp --suffix=.md)"
+          echo "CHANGELOG_FILE=${CHANGELOG_FILE}" >> $GITHUB_ENV
+          gh api --method POST -H "Accept: application/vnd.github+json" \
+            "/repos/${GITHUB_REPOSITORY}/releases/generate-notes" \
+            -f tag_name="${RELEASE_VERSION}" \
+            --jq ".body" > "${CHANGELOG_FILE}"
+          cat "${CHANGELOG_FILE}"
+          gh release create "${RELEASE_VERSION}" -F "${CHANGELOG_FILE}" $PRERELEASE ./build/*.zip
+        shell: bash
+        if: ${{ steps.bundle.outcome == 'success' }}
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}

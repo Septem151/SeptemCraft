@@ -1,0 +1,69 @@
+# Each line in this file should either be a comment (starts with '#') or an ordering.
+# Ordering lines are <handler ID>,<ordering number>.
+# Handlers will be sorted in order of number ascending, so smaller numbers first.
+# Any handlers that are missing from this file will be assigned to 0.
+# Negative numbers are fine.
+# If you delete this file, it will be regenerated with all registered handler IDs.
+appeng.integration.modules.NEIHelpers.NEIAEShapedRecipeHandler,0
+appeng.integration.modules.NEIHelpers.NEIAEShapelessRecipeHandler,0
+appeng.integration.modules.NEIHelpers.NEIFacadeRecipeHandler,0
+appeng.integration.modules.NEIHelpers.NEIGrinderRecipeHandler,0
+appeng.integration.modules.NEIHelpers.NEIInscriberRecipeHandler,0
+appeng.integration.modules.NEIHelpers.NEIWorldCraftingHandler,0
+aroma1997.core.recipes.nei.ShapedAromicRecipeHandler,0
+aroma1997.core.recipes.nei.ShapelessAromicRecipeHandler,0
+bq_quest,0
+buildcraft.compat.nei.RecipeHandlerAssemblyTable,0
+buildcraft.compat.nei.RecipeHandlerIntegrationTable,0
+buildcraft.compat.nei.RecipeHandlerRefinery,0
+codechicken.nei.recipe.BrewingRecipeHandler,0
+codechicken.nei.recipe.FireworkRecipeHandler,0
+codechicken.nei.recipe.FuelRecipeHandler,0
+codechicken.nei.recipe.FurnaceRecipeHandler,0
+codechicken.nei.recipe.ShapedRecipeHandler,0
+codechicken.nei.recipe.ShapelessRecipeHandler,0
+cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerCharger,0
+cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerCraftingMachine,0
+cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerCraftingSecure,0
+cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerCraftingUpgrade,0
+cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerCrucible,0
+cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerFurnace,0
+cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerInsolator,0
+cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerPulverizer,0
+cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerSawmill,0
+cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerSmelter,0
+cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerTransposer,0
+com.jaquadro.minecraft.storagedrawers.integration.notenoughitems.UpgradeItemRecipeHandler,0
+com.pam.harvestcraft.GardenRecipeHandler,0
+com.rwtema.extrautils.nei.EnderConstructorHandler,0
+com.rwtema.extrautils.nei.FMPMicroBlocksHandler,0
+com.rwtema.extrautils.nei.InfoHandler,0
+com.rwtema.extrautils.nei.MicroBlocksHandler,0
+com.rwtema.extrautils.nei.SoulHandler,0
+extracells.integration.nei.UniversalTerminalRecipe,0
+mobsinfo.mobhandler,0
+net.p455w0rd.wirelesscraftingterminal.integration.modules.NEIHelpers.NEIAEShapedRecipeHandler,0
+tconstruct.plugins.nei.RecipeHandlerAlloying,0
+tconstruct.plugins.nei.RecipeHandlerCastingBasin,0
+tconstruct.plugins.nei.RecipeHandlerCastingTable,0
+tconstruct.plugins.nei.RecipeHandlerDryingRack,0
+tconstruct.plugins.nei.RecipeHandlerMelting,0
+tconstruct.plugins.nei.RecipeHandlerToolMaterials,0
+team.chisel.compat.nei.RecipeHandlerChisel,0
+tonius.neiintegration.mods.harvestcraft.RecipeHandlerApiary,0
+tonius.neiintegration.mods.harvestcraft.RecipeHandlerChurn,0
+tonius.neiintegration.mods.harvestcraft.RecipeHandlerOven,0
+tonius.neiintegration.mods.harvestcraft.RecipeHandlerPresser,0
+tonius.neiintegration.mods.harvestcraft.RecipeHandlerQuern,0
+tonius.neiintegration.mods.mcforge.RecipeHandlerFluidRegistry,0
+tonius.neiintegration.mods.mcforge.RecipeHandlerOreDictionary,0
+tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerBioReactor,0
+tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerComposter,0
+tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerGrinder,0
+tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerHarvester,0
+tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerLaserDrill,0
+tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerLavaFabricator,0
+tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerMeatPacker,0
+tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerSewer,0
+tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerSlaughterhouse,0
+tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerSludgeBoiler,0

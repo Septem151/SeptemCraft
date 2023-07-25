@@ -5,3 +5,14 @@
 /mods/
 **/*.env
 /build
+/.healer.log
+/journeymap/
+/knownkeys.txt
+/localconfig.cfg
+/logs/
+/saves/
+/stencil*.png
+/resourcepacks/
+/schematics/
+/blueprints/
+/betterfps.txt

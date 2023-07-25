@@ -315,7 +315,8 @@ def main() -> None:
     """
     download_directory = Path(__file__).resolve().parent / "mods"
     if not download_directory.exists():
-        download_directory.mkdir(parents=True)
+        download_directory.mkdir(parents=True, exist_ok=True)
+    (download_directory / "1.7.10").mkdir(exist_ok=True)
     mod_list: list[dict[str, Any]] = json.load(
         (Path(__file__).resolve().parent / "modlist.json").open("r", encoding="UTF-8")
     )

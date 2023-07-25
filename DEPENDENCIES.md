@@ -93,6 +93,7 @@ rotten-flesh-to-leather | [RottenFleshToLeather-2.1-1.7.10.jar](https://www.curs
 schematica | [Schematica-1.7.10-1.7.6.131-universal.jar](https://www.curseforge.com/minecraft/mc-mods/schematica) | 1.7.6.131-universal
 SeptemTweaks | [septemtweaks-0.2.3-beta.jar](https://github.com/Septem151/SeptemTweaks) | 0.2.3-beta
 simpleharvest | [Harvest-1.7.10-1.0.0-2.jar](https://www.curseforge.com/minecraft/mc-mods/simpleharvest) | 1.0.0-2
+simplyjetpacks-1.0.0 | [simplyjetpacks-1.0.0.jar](libs/simplyjetpacks-1.0.0.jar) | 1.0.0
 SleepingBags | [sleepingbag-1.7.10-0.1.4.jar](https://github.com/GTNewHorizons/SleepingBags) | 0.1.4
 smooth-font | [SmoothFont-1.7.10-1.15.3.jar](https://www.curseforge.com/minecraft/mc-mods/smooth-font) | 1.15.3
 special-mobs | [SpecialMobs-1.7.10-3.2.2.jar](https://www.curseforge.com/minecraft/mc-mods/special-mobs) | 3.2.2

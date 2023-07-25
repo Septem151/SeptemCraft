@@ -439,6 +439,14 @@ def generate_dependencies_list(filepath: Path, mods: list[Dependency]) -> bool:
             tablebuilder.add_row(
                 [mod.url.rsplit("/", 1)[1], f"[{mod.jar_name}]({mod.url})", mod.version]
             )
+        elif isinstance(mod, LocalDependency):
+            tablebuilder.add_row(
+                [
+                    mod.jar_name.removesuffix(".jar"),
+                    f"[{mod.jar_name}]({mod.path})",
+                    mod.version,
+                ]
+            )
     tablebuilder.sort_rows("Mod Name")
     with filepath.open("w", encoding="UTF-8") as file:
         file.write(f"Dependencies:\n\n{tablebuilder.build()}")

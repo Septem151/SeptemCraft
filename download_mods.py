@@ -433,7 +433,7 @@ def generate_dependencies_list(filepath: Path, mods: list[Dependency]) -> bool:
     """
     Generates a table of dependencies and writes them to a file
     """
-    tablebuilder = TableBuilder().add_headers(["Mod Name", "File", "Version"])
+    tablebuilder = TableBuilder().add_headers(["Mod Name", "Link To Mod", "Version"])
     for mod in mods:
         if isinstance(mod, URLDependency):
             tablebuilder.add_row(

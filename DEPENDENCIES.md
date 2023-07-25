@@ -1,6 +1,6 @@
 Dependencies:
 
-Mod Name | File | Version
+Mod Name | Link To Mod | Version
 ---|---|---
 ae2-fluid-crafting-rework | [ae2fc-1.7.10-g92699c9.jar](https://www.curseforge.com/minecraft/mc-mods/ae2-fluid-crafting-rework) | g92699c9
 ae2stuff | [ae2stuff-0.5.2-GTNH.jar](https://github.com/GTNewHorizons/ae2stuff) | 0.5.2-GTNH

@@ -19,3 +19,9 @@ Features implemented in current release:
 - Thermal Expansion recipes modified to be in-line with ore progression and more resource intensive
 - Tinkers Construct alloy changes for Alumite and Signalum
 - Vanilla furnace cannot smelt ores
+
+## Mods Present
+
+See [Dependencies][dependencies]
+
+[dependencies]: ./DEPENDENCIES.md

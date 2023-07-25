@@ -49,16 +49,12 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         if: ${{ env.CURSEFORGE_TOKEN != '' && env.GH_TOKEN != '' }}
 
-      - name: Prepare bundle directory
-        run: |
-          mkdir build
-
       - name: Bundle modpack release
         id: bundle
-        uses: montudor/action-zip@v1
-        with:
-          args: >
-            zip -r "build/${GITHUB_REPOSITORY##*/}-${RELEASE_VERSION}-server.zip" mods modlist.json
+        run: |
+          mkdir build
+          zip -r "build/${GITHUB_REPOSITORY##*/}-${RELEASE_VERSION}-server.zip" \
+            mods modlist.json
 
       - name: Delete old release if exists
         run: gh release delete --yes "${RELEASE_VERSION}"
@@ -84,4 +80,4 @@ jobs:
         shell: bash
         if: ${{ steps.bundle.outcome == 'success' }}
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

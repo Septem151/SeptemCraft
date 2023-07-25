@@ -3,8 +3,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/BugTorch",
-      "author": "GTNewHorizons",
-      "repo": "BugTorch",
+      "repo_name": "GTNewHorizons/BugTorch",
       "asset": 108112588,
       "jar_name": "bugtorch-1.2.10-GTNH.jar"
     }
@@ -13,8 +12,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/BuildCraft",
-      "author": "GTNewHorizons",
-      "repo": "BuildCraft",
+      "repo_name": "GTNewHorizons/BuildCraft",
       "asset": 117828838,
       "jar_name": "buildcraft-7.1.36.jar"
     }
@@ -23,8 +21,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/BuildCraftCompat",
-      "author": "GTNewHorizons",
-      "repo": "BuildCraftCompat",
+      "repo_name": "GTNewHorizons/BuildCraftCompat",
       "asset": 105828891,
       "jar_name": "buildcraft-compat-7.1.14.jar"
     }
@@ -33,8 +30,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/CookingForBlockheads",
-      "author": "GTNewHorizons",
-      "repo": "CookingForBlockheads",
+      "repo_name": "GTNewHorizons/CookingForBlockheads",
       "asset": 117701312,
       "jar_name": "CookingForBlockheads-1.2.16-GTNH.jar"
     }
@@ -43,8 +39,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/DefaultWorldGenerator",
-      "author": "GTNewHorizons",
-      "repo": "DefaultWorldGenerator",
+      "repo_name": "GTNewHorizons/DefaultWorldGenerator",
       "asset": 75679455,
       "jar_name": "defaultworldgenerator-1.7.10-0.2.jar"
     }
@@ -53,8 +48,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Custom-Main-Menu",
-      "author": "GTNewHorizons",
-      "repo": "Custom-Main-Menu",
+      "repo_name": "GTNewHorizons/Custom-Main-Menu",
       "asset": 92383209,
       "jar_name": "custommainmenu-1.7.10-1.9.4.jar"
     }
@@ -63,8 +57,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/DefaultServerList",
-      "author": "GTNewHorizons",
-      "repo": "DefaultServerList",
+      "repo_name": "GTNewHorizons/DefaultServerList",
       "asset": 80803903,
       "jar_name": "defaultserverlist-1.7.10-1.4.0.jar"
     }
@@ -73,8 +66,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/DuraDisplay",
-      "author": "GTNewHorizons",
-      "repo": "DuraDisplay",
+      "repo_name": "GTNewHorizons/DuraDisplay",
       "asset": 112072402,
       "jar_name": "duradisplay-1.0.8.jar"
     }
@@ -83,8 +75,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/EnderStorage",
-      "author": "GTNewHorizons",
-      "repo": "EnderStorage",
+      "repo_name": "GTNewHorizons/EnderStorage",
       "asset": 73255412,
       "jar_name": "EnderStorage-1.7.10-1.4.12.jar"
     }
@@ -93,8 +84,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Default-Configs",
-      "author": "GTNewHorizons",
-      "repo": "Default-Configs",
+      "repo_name": "GTNewHorizons/Default-Configs",
       "asset": 116569957,
       "jar_name": "defaultkeys-1.1.0.jar"
     }
@@ -103,8 +93,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/HelpFixer",
-      "author": "GTNewHorizons",
-      "repo": "HelpFixer",
+      "repo_name": "GTNewHorizons/HelpFixer",
       "asset": 88685403,
       "jar_name": "HelpFixer-1.7.10-1.1.0.jar"
     }
@@ -113,8 +102,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Hodgepodge",
-      "author": "GTNewHorizons",
-      "repo": "Hodgepodge",
+      "repo_name": "GTNewHorizons/Hodgepodge",
       "asset": 117828925,
       "jar_name": "hodgepodge-2.2.25.jar"
     }
@@ -123,8 +111,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/HungerOverhaul",
-      "author": "GTNewHorizons",
-      "repo": "HungerOverhaul",
+      "repo_name": "GTNewHorizons/HungerOverhaul",
       "asset": 56640514,
       "jar_name": "HungerOverhaul-1.7.10-1.0.4-GTNH.jar"
     }
@@ -133,8 +120,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/InGame-Info-XML",
-      "author": "GTNewHorizons",
-      "repo": "InGame-Info-XML",
+      "repo_name": "GTNewHorizons/InGame-Info-XML",
       "asset": 115548328,
       "jar_name": "InGameInfoXML-2.8.4.jar"
     }
@@ -143,8 +129,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/inventory-tweaks",
-      "author": "GTNewHorizons",
-      "repo": "inventory-tweaks",
+      "repo_name": "GTNewHorizons/inventory-tweaks",
       "asset": 93773739,
       "jar_name": "inventorytweaks-1.5.16.jar"
     }
@@ -153,8 +138,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/ironchest",
-      "author": "GTNewHorizons",
-      "repo": "ironchest",
+      "repo_name": "GTNewHorizons/ironchest",
       "asset": 68490587,
       "jar_name": "IronChest-1.7.10-6.0.71.jar"
     }
@@ -163,8 +147,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/itlt",
-      "author": "GTNewHorizons",
-      "repo": "itlt",
+      "repo_name": "GTNewHorizons/itlt",
       "asset": 88164767,
       "jar_name": "itlt-1.7.10-1.0.4.jar"
     }
@@ -173,8 +156,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Jabba",
-      "author": "GTNewHorizons",
-      "repo": "Jabba",
+      "repo_name": "GTNewHorizons/Jabba",
       "asset": 93561103,
       "jar_name": "JABBA-1.2.22.jar"
     }
@@ -183,8 +165,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Mantle",
-      "author": "GTNewHorizons",
-      "repo": "Mantle",
+      "repo_name": "GTNewHorizons/Mantle",
       "asset": 109111721,
       "jar_name": "Mantle-0.3.7.jar"
     }
@@ -193,8 +174,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Mobs-Info",
-      "author": "GTNewHorizons",
-      "repo": "Mobs-Info",
+      "repo_name": "GTNewHorizons/Mobs-Info",
       "asset": 117127446,
       "jar_name": "mobsinfo-0.0.7-GTNH.jar"
     }
@@ -203,8 +183,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/MouseTweaks",
-      "author": "GTNewHorizons",
-      "repo": "MouseTweaks",
+      "repo_name": "GTNewHorizons/MouseTweaks",
       "asset": 95813372,
       "jar_name": "MouseTweaks-2.4.8-GTNH.jar"
     }
@@ -213,8 +192,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/NEI-Integration",
-      "author": "GTNewHorizons",
-      "repo": "NEI-Integration",
+      "repo_name": "GTNewHorizons/NEI-Integration",
       "asset": 117342193,
       "jar_name": "NEIIntegration-1.3.3.jar"
     }
@@ -223,8 +201,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/neiaddons",
-      "author": "GTNewHorizons",
-      "repo": "neiaddons",
+      "repo_name": "GTNewHorizons/neiaddons",
       "asset": 81320900,
       "jar_name": "NEIAddons-1.7.10-1.12.22.jar"
     }
@@ -233,8 +210,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/NetherPortalFix",
-      "author": "GTNewHorizons",
-      "repo": "NetherPortalFix",
+      "repo_name": "GTNewHorizons/NetherPortalFix",
       "asset": 91976129,
       "jar_name": "netherportalfix-1.7.10-1.1.2.jar"
     }
@@ -243,8 +219,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Netty-Patcher",
-      "author": "GTNewHorizons",
-      "repo": "Netty-Patcher",
+      "repo_name": "GTNewHorizons/Netty-Patcher",
       "asset": 56698166,
       "jar_name": "NettyPatch-1.7.10-0.3.1.jar"
     }
@@ -253,8 +228,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/NotEnoughEnergistics",
-      "author": "GTNewHorizons",
-      "repo": "NotEnoughEnergistics",
+      "repo_name": "GTNewHorizons/NotEnoughEnergistics",
       "asset": 110224039,
       "jar_name": "NotEnoughEnergistics-1.4.2.jar"
     }
@@ -263,8 +237,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/NotEnoughItems",
-      "author": "GTNewHorizons",
-      "repo": "NotEnoughItems",
+      "repo_name": "GTNewHorizons/NotEnoughItems",
       "asset": 118223813,
       "jar_name": "NotEnoughItems-2.3.79-GTNH.jar"
     }
@@ -273,8 +246,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Nutrition",
-      "author": "GTNewHorizons",
-      "repo": "Nutrition",
+      "repo_name": "GTNewHorizons/Nutrition",
       "asset": 118273403,
       "jar_name": "nutrition-0.0.3.jar"
     }
@@ -283,8 +255,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/oauth",
-      "author": "GTNewHorizons",
-      "repo": "oauth",
+      "repo_name": "GTNewHorizons/oauth",
       "asset": 57049118,
       "jar_name": "oauth-1.7.10-1.06.1-GTNH.jar"
     }
@@ -293,8 +264,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/OpenBlocks",
-      "author": "GTNewHorizons",
-      "repo": "OpenBlocks",
+      "repo_name": "GTNewHorizons/OpenBlocks",
       "asset": 100011479,
       "jar_name": "OpenBlocks-1.7.0-GTNH.jar"
     }
@@ -303,8 +273,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/OpenModsLib",
-      "author": "GTNewHorizons",
-      "repo": "OpenModsLib",
+      "repo_name": "GTNewHorizons/OpenModsLib",
       "asset": 58362082,
       "jar_name": "OpenModsLibs-1.7.10-0.10.6.jar"
     }
@@ -313,8 +282,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Opis",
-      "author": "GTNewHorizons",
-      "repo": "Opis",
+      "repo_name": "GTNewHorizons/Opis",
       "asset": 91975869,
       "jar_name": "Opis-1.7.10-1.3.8-mapless.jar"
     }
@@ -323,8 +291,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/OverloadedArmorBar",
-      "author": "GTNewHorizons",
-      "repo": "OverloadedArmorBar",
+      "repo_name": "GTNewHorizons/OverloadedArmorBar",
       "asset": 56639479,
       "jar_name": "overloadedarmorbar-1.7.10-1.0.1.jar"
     }
@@ -333,8 +300,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Realistic-World-Gen",
-      "author": "GTNewHorizons",
-      "repo": "Realistic-World-Gen",
+      "repo_name": "GTNewHorizons/Realistic-World-Gen",
       "asset": 89191391,
       "jar_name": "RWG-1.7.10-alpha-1.3.3.2.jar"
     }
@@ -343,8 +309,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Schematica",
-      "author": "GTNewHorizons",
-      "repo": "Schematica",
+      "repo_name": "GTNewHorizons/Schematica",
       "asset": 98970279,
       "jar_name": "Schematica-1.9.3-GTNH.jar"
     }
@@ -353,8 +318,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/SleepingBags",
-      "author": "GTNewHorizons",
-      "repo": "SleepingBags",
+      "repo_name": "GTNewHorizons/SleepingBags",
       "asset": 79709076,
       "jar_name": "sleepingbag-1.7.10-0.1.4.jar"
     }
@@ -363,8 +327,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/SpiceOfLife",
-      "author": "GTNewHorizons",
-      "repo": "SpiceOfLife",
+      "repo_name": "GTNewHorizons/SpiceOfLife",
       "asset": 107753892,
       "jar_name": "SpiceOfLife-2.1.0-carrot.jar"
     }
@@ -373,8 +336,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/StorageDrawers",
-      "author": "GTNewHorizons",
-      "repo": "StorageDrawers",
+      "repo_name": "GTNewHorizons/StorageDrawers",
       "asset": 110282556,
       "jar_name": "StorageDrawers-1.12.0-GTNH.jar"
     }
@@ -383,8 +345,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty",
-      "author": "GTNewHorizons",
-      "repo": "StorageDrawers-BiomesOPlenty",
+      "repo_name": "GTNewHorizons/StorageDrawers-BiomesOPlenty",
       "asset": 76102748,
       "jar_name": "StorageDrawersBop-1.7.10-1.11.17-GTNH.jar"
     }
@@ -393,8 +354,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/TiC-Tooltips",
-      "author": "GTNewHorizons",
-      "repo": "TiC-Tooltips",
+      "repo_name": "GTNewHorizons/TiC-Tooltips",
       "asset": 113256238,
       "jar_name": "TiCTooltips-1.2.11.jar"
     }
@@ -403,8 +363,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/TinkersConstruct",
-      "author": "GTNewHorizons",
-      "repo": "TinkersConstruct",
+      "repo_name": "GTNewHorizons/TinkersConstruct",
       "asset": 117116611,
       "jar_name": "TConstruct-1.9.39-GTNH.jar"
     }
@@ -413,8 +372,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/TooMuchLoot",
-      "author": "GTNewHorizons",
-      "repo": "TooMuchLoot",
+      "repo_name": "GTNewHorizons/TooMuchLoot",
       "asset": 51504450,
       "jar_name": "TooMuchLoot-1.7.10-4.1.0-GTNH.jar"
     }
@@ -423,8 +381,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/ToroHealth",
-      "author": "GTNewHorizons",
-      "repo": "ToroHealth",
+      "repo_name": "GTNewHorizons/ToroHealth",
       "asset": 56639791,
       "jar_name": "torohealth-1.7.10-1.0.1.jar"
     }
@@ -433,8 +390,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/waila",
-      "author": "GTNewHorizons",
-      "repo": "waila",
+      "repo_name": "GTNewHorizons/waila",
       "asset": 107001327,
       "jar_name": "Waila-1.6.0.jar"
     }
@@ -443,8 +399,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/WailaHarvestability",
-      "author": "GTNewHorizons",
-      "repo": "WailaHarvestability",
+      "repo_name": "GTNewHorizons/WailaHarvestability",
       "asset": 56524758,
       "jar_name": "WailaHarvestability-1.7.10-1.1.10-GTNH.jar"
     }
@@ -453,8 +408,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/WAILAPlugins",
-      "author": "GTNewHorizons",
-      "repo": "WAILAPlugins",
+      "repo_name": "GTNewHorizons/WAILAPlugins",
       "asset": 104239864,
       "jar_name": "WAILAPlugins-0.2.8.jar"
     }
@@ -463,8 +417,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/EnderCore",
-      "author": "GTNewHorizons",
-      "repo": "EnderCore",
+      "repo_name": "GTNewHorizons/EnderCore",
       "asset": 111839448,
       "jar_name": "endercore-0.2.16.jar"
     }
@@ -473,8 +426,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/WAWLA",
-      "author": "GTNewHorizons",
-      "repo": "WAWLA",
+      "repo_name": "GTNewHorizons/WAWLA",
       "asset": 56640319,
       "jar_name": "Wawla-1.7.10-1.1.3-GTNH.jar"
     }
@@ -483,8 +435,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/WirelessCraftingTerminal",
-      "author": "GTNewHorizons",
-      "repo": "WirelessCraftingTerminal",
+      "repo_name": "GTNewHorizons/WirelessCraftingTerminal",
       "asset": 109804865,
       "jar_name": "WirelessCraftingTerminal-1.9.2.jar"
     }
@@ -493,8 +444,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework",
-      "author": "GTNewHorizons",
-      "repo": "AE2FluidCraft-Rework",
+      "repo_name": "GTNewHorizons/AE2FluidCraft-Rework",
       "asset": 118383798,
       "jar_name": "ae2fc-1.1.34-gtnh.jar"
     }
@@ -503,8 +453,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/ae2stuff",
-      "author": "GTNewHorizons",
-      "repo": "ae2stuff",
+      "repo_name": "GTNewHorizons/ae2stuff",
       "asset": 113397026,
       "jar_name": "ae2stuff-0.5.2-GTNH.jar"
     }
@@ -513,8 +462,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/bdlib",
-      "author": "GTNewHorizons",
-      "repo": "bdlib",
+      "repo_name": "GTNewHorizons/bdlib",
       "asset": 68285600,
       "jar_name": "bdlib-1.7.10-1.9.8-GTNH.jar"
     }
@@ -523,8 +471,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/AppleCore",
-      "author": "GTNewHorizons",
-      "repo": "AppleCore",
+      "repo_name": "GTNewHorizons/AppleCore",
       "asset": 94767845,
       "jar_name": "AppleCore-3.2.10.jar"
     }
@@ -533,8 +480,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial",
-      "author": "GTNewHorizons",
-      "repo": "Applied-Energistics-2-Unofficial",
+      "repo_name": "GTNewHorizons/Applied-Energistics-2-Unofficial",
       "asset": 117400647,
       "jar_name": "appliedenergistics2-rv3-beta-240-GTNH.jar"
     }
@@ -543,8 +489,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/BetterQuesting",
-      "author": "GTNewHorizons",
-      "repo": "BetterQuesting",
+      "repo_name": "GTNewHorizons/BetterQuesting",
       "asset": 118371309,
       "jar_name": "BetterQuesting-3.3.25-GTNH.jar"
     }
@@ -553,8 +498,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/BetterP2P",
-      "author": "GTNewHorizons",
-      "repo": "BetterP2P",
+      "repo_name": "GTNewHorizons/BetterP2P",
       "asset": 117402167,
       "jar_name": "betterp2p-1.1.15.jar"
     }
@@ -563,8 +507,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Forgelin",
-      "author": "GTNewHorizons",
-      "repo": "Forgelin",
+      "repo_name": "GTNewHorizons/Forgelin",
       "asset": 93519755,
       "jar_name": "forgelin-1.9.7-GTNH.jar"
     }
@@ -573,8 +516,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/BetterBuildersWands",
-      "author": "GTNewHorizons",
-      "repo": "BetterBuildersWands",
+      "repo_name": "GTNewHorizons/BetterBuildersWands",
       "asset": 93297024,
       "jar_name": "BetterBuildersWands-1.7.10-0.9.6-GTNH.jar"
     }
@@ -583,8 +525,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/BetterCrashes",
-      "author": "GTNewHorizons",
-      "repo": "BetterCrashes",
+      "repo_name": "GTNewHorizons/BetterCrashes",
       "asset": 111113625,
       "jar_name": "bettercrashes-1.2.2-GTNH.jar"
     }
@@ -593,8 +534,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/LegacyModdingMC/UniMixins",
-      "author": "LegacyModdingMC",
-      "repo": "UniMixins",
+      "repo_name": "LegacyModdingMC/UniMixins",
       "asset": 113669486,
       "jar_name": "+unimixins-all-1.7.10-0.1.11.jar"
     }
@@ -603,8 +543,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Chisel",
-      "author": "GTNewHorizons",
-      "repo": "Chisel",
+      "repo_name": "GTNewHorizons/Chisel",
       "asset": 113280340,
       "jar_name": "chisel-2.11.3-GTNH.jar"
     }
@@ -613,8 +552,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/ChiselTones",
-      "author": "GTNewHorizons",
-      "repo": "ChiselTones",
+      "repo_name": "GTNewHorizons/ChiselTones",
       "asset": 70734463,
       "jar_name": "chiseltones-1.7.10-1.0.4-GTNH.jar"
     }
@@ -623,8 +561,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/CodeChickenCore",
-      "author": "GTNewHorizons",
-      "repo": "CodeChickenCore",
+      "repo_name": "GTNewHorizons/CodeChickenCore",
       "asset": 94135295,
       "jar_name": "CodeChickenCore-1.1.11.jar"
     }
@@ -633,8 +570,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Controlling",
-      "author": "GTNewHorizons",
-      "repo": "Controlling",
+      "repo_name": "GTNewHorizons/Controlling",
       "asset": 94769594,
       "jar_name": "controlling-1.0.0.5.jar"
     }
@@ -643,8 +579,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/EnderZoo",
-      "author": "GTNewHorizons",
-      "repo": "EnderZoo",
+      "repo_name": "GTNewHorizons/EnderZoo",
       "asset": 56698392,
       "jar_name": "EnderZoo-1.7.10-1.0.23.jar"
     }
@@ -653,8 +588,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/NaturesCompass",
-      "author": "GTNewHorizons",
-      "repo": "NaturesCompass",
+      "repo_name": "GTNewHorizons/NaturesCompass",
       "asset": 78906089,
       "jar_name": "naturescompass-1.7.10-1.3.6-GTNH.jar"
     }
@@ -663,8 +597,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/NotEnoughIds",
-      "author": "GTNewHorizons",
-      "repo": "NotEnoughIds",
+      "repo_name": "GTNewHorizons/NotEnoughIds",
       "asset": 93297875,
       "jar_name": "notenoughIDs-1.7.10-1.4.6.jar"
     }
@@ -673,8 +606,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/Roguelike-Dungeons",
-      "author": "GTNewHorizons",
-      "repo": "Roguelike-Dungeons",
+      "repo_name": "GTNewHorizons/Roguelike-Dungeons",
       "asset": 59693101,
       "jar_name": "roguelike-1.7.10-1.5.3-GTNH.jar"
     }
@@ -683,8 +615,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/SpecialMobs",
-      "author": "GTNewHorizons",
-      "repo": "SpecialMobs",
+      "repo_name": "GTNewHorizons/SpecialMobs",
       "asset": 117662543,
       "jar_name": "SpecialMobs-3.4.3.jar"
     }
@@ -693,8 +624,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/makamys/Neodymium",
-      "author": "makamys",
-      "repo": "Neodymium",
+      "repo_name": "makamys/Neodymium",
       "asset": 108475396,
       "jar_name": "neodymium-1.7.10-0.1.8.4+nomixin.jar"
     }
@@ -703,8 +633,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/GTNewHorizons/WanionLib",
-      "author": "GTNewHorizons",
-      "repo": "WanionLib",
+      "repo_name": "GTNewHorizons/WanionLib",
       "asset": 94940938,
       "jar_name": "WanionLib-1.8.4.jar"
     }
@@ -713,8 +642,7 @@
     "source": "github",
     "data": {
       "url": "https://github.com/Septem151/SeptemTweaks",
-      "author": "Septem151",
-      "repo": "SeptemTweaks",
+      "repo_name": "Septem151/SeptemTweaks",
       "asset": 118333583,
       "jar_name": "septemtweaks-0.2.3-beta.jar"
     }

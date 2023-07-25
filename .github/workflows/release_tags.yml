@@ -26,10 +26,22 @@ jobs:
           cache: "pip"
 
       - name: Install Python dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+
+      - name: Python format checking
+        run: |
+          python -m black --check --verbose .
+
+      - name: Python linting
+        run: |
+          python -m pylint --reports y download_mods.py
+
+      - name: Python type checking
+        run: |
+          python -m mypy --verbose .
 
       - name: Install Mod dependencies
-        id: install
         run: python download_mods.py
         env:
           CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
@@ -47,7 +59,6 @@ jobs:
           args:
             zip -qq -r build/${GITHUB_REPOSITORY##*/}-${RELEASE_VERSION}-server.zip \
             mods modlist.json
-        if: ${{ steps.install.outcome == 'success' }}
 
       - name: Delete old release if exists
         run: gh release delete --yes "${RELEASE_VERSION}"

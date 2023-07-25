@@ -84,7 +84,17 @@ class Dependency(ABC):
         return {"source": self.source, "data": {}}
 
 
-class GitHubDependency(Dependency):
+class URLDependency(Dependency):
+    @property
+    @abstractmethod
+    def url(self) -> str:
+        """
+        URL for dependency
+        MUST BE IMPLEMENTED BY CLASSES
+        """
+
+
+class GitHubDependency(URLDependency):
     """
     {
         "source": "github",
@@ -100,10 +110,14 @@ class GitHubDependency(Dependency):
     api_base_url: str = "https://api.github.com"
 
     def __init__(self, url: str, tag: str, filename: str) -> None:
-        self.url = url
+        self._url = url
         self.tag = tag
         self.filename = filename
         self.owner, self.repo = self.url.removesuffix(".git").rsplit("/", 2)[-2:]
+
+    @property
+    def url(self) -> str:
+        return self._url
 
     @property
     def headers(self) -> dict[str, Any]:
@@ -162,7 +176,7 @@ class GitHubDependency(Dependency):
         }
 
 
-class CurseForgeDependency(Dependency):
+class CurseForgeDependency(URLDependency):
     """
     JSON schema:
     {
@@ -180,10 +194,14 @@ class CurseForgeDependency(Dependency):
     api_base_url: str = "https://api.curseforge.com/v1"
 
     def __init__(self, url: str, project: int, file: int, jar_name: str) -> None:
-        self.url = url
+        self._url = url
         self.project = project
         self.file = file
         self._jar_name = jar_name
+
+    @property
+    def url(self) -> str:
+        return self._url
 
     @property
     def headers(self) -> dict[str, Any]:
@@ -307,24 +325,36 @@ def dependency_from_json(json_data: dict[str, Any]) -> Dependency:
     raise RuntimeError(f"unknown source for mod: {source}")
 
 
+def generate_dependencies_list(filepath: Path, mods: list[Dependency]) -> bool:
+    deplist: str = "Dependencies:\n\n"
+    for mod in mods:
+        if isinstance(mod, URLDependency):
+            deplist += f"- [{mod.jar_name}]({mod.url})\n"
+    with filepath.open("w", encoding="UTF-8") as file:
+        file.write(deplist)
+    return True
+
+
 def main() -> None:
     """
     Main program entrypoint, loops through each mod
     in the modlist.json file and downloads each dependency to the
     mods/ folder as needed.
     """
+    modlist_path = Path(__file__).resolve().parent / "modlist.json"
+    deplist_path = Path(__file__).resolve().parent / "DEPENDENCIES.md"
     download_directory = Path(__file__).resolve().parent / "mods"
     if not download_directory.exists():
         download_directory.mkdir(parents=True, exist_ok=True)
     (download_directory / "1.7.10").mkdir(exist_ok=True)
-    mod_list: list[dict[str, Any]] = json.load(
-        (Path(__file__).resolve().parent / "modlist.json").open("r", encoding="UTF-8")
-    )
+    mod_list: list[Dependency] = [
+        dependency_from_json(mod)
+        for mod in json.load((modlist_path).open("r", encoding="UTF-8"))
+    ]
     success_count = 0
     skip_count = 0
     error_count = 0
-    for mod_json in mod_list:
-        mod = dependency_from_json(mod_json)
+    for mod in mod_list:
         result = mod.download(download_directory)
         if result == DownloadStatus.SUCCESS:
             success_count += 1
@@ -335,6 +365,8 @@ def main() -> None:
     print(f"Mods Installed: {success_count}")
     print(f"Mods Skipped: {skip_count}")
     print(f"Errors: {error_count}")
+    if os.getenv("CI") is None and generate_dependencies_list(deplist_path, mod_list):
+        print(f"Dependency list generated at {deplist_path}")
 
 
 if __name__ == "__main__":

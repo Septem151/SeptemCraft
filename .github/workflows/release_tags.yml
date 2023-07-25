@@ -54,7 +54,7 @@ jobs:
         run: |
           mkdir build
           zip -r "build/${GITHUB_REPOSITORY##*/}-${RELEASE_VERSION}-server.zip" \
-            mods modlist.json
+            mods modlist.json config LICENSE README.md
 
       - name: Delete old release if exists
         run: gh release delete --yes "${RELEASE_VERSION}"

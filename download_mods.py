@@ -61,6 +61,37 @@ class Dependency(ABC):
         MUST BE IMPLEMENTED BY CLASSES
         """
 
+    @property
+    def version(self) -> str:
+        """
+        Extracts the version string from the jar name
+        """
+        mod_str = self.jar_name.removesuffix(".jar")
+        mod_arr = mod_str.split("-", 1)
+        sep_is_space = len(mod_arr) < 2
+        if sep_is_space:
+            mod_arr = mod_arr[0].rsplit(" ", 1)
+            mod_str = "".join(mod_arr[1:])
+        mod_str = "".join(mod_arr[1:])
+        if sep_is_space:
+            return mod_str
+        invalid_prefixes = (
+            "all-",
+            "1.7.10",
+            "-",
+            "/",
+            " ",
+            "V1.7.10",
+            "v1.7.10",
+            "[1.7.10]",
+            "mc1.7.10",
+            "MC1.7.10",
+        )
+        while mod_str.startswith(invalid_prefixes):
+            for invalid_prefix in invalid_prefixes:
+                mod_str = mod_str.removeprefix(invalid_prefix)
+        return mod_str
+
     @abstractmethod
     def download(self, mod_dir: Path) -> DownloadStatus:
         """
@@ -85,6 +116,10 @@ class Dependency(ABC):
 
 
 class URLDependency(Dependency):
+    """
+    Dependency Interface for dependencies that have a publicly accessible URL
+    """
+
     @property
     @abstractmethod
     def url(self) -> str:
@@ -325,13 +360,88 @@ def dependency_from_json(json_data: dict[str, Any]) -> Dependency:
     raise RuntimeError(f"unknown source for mod: {source}")
 
 
+class TableBuilder:
+    """
+    Utility builder class to build markdown tables
+    """
+
+    def __init__(self) -> None:
+        self._headers: list[str] = []
+        self._rows: list[list[str]] = []
+
+    def add_header(self, header: str) -> "TableBuilder":
+        """
+        Adds a header to the table if it doesn't already exist
+        """
+        if "header" not in self._headers:
+            self._headers.append(header)
+        return self
+
+    def add_headers(self, headers: list[str]) -> "TableBuilder":
+        """
+        Add multiple headers to the table if they don't already exist
+        """
+        for header in headers:
+            self.add_header(header)
+        return self
+
+    def add_row(self, row: list[str]) -> "TableBuilder":
+        """
+        Add a row to the table
+        """
+        self._rows.append(row)
+        return self
+
+    def sort_rows(self, header: str) -> "TableBuilder":
+        """
+        Sorts the rows in a table based on a given header
+        """
+        if header not in self._headers:
+            return self
+        index = self._headers.index(header)
+        self._rows.sort(key=lambda row: row[index].lower())
+        return self
+
+    def build(self) -> str:
+        """
+        Builds the resulting table. Rows with more columns than headers
+        are truncated
+        """
+        result = ""
+        for header_column, header in enumerate(self._headers):
+            first = header_column == 0
+            last = header_column == len(self._headers) - 1
+            space_before = "" if first else " "
+            space_after = "" if last else " |"
+            newline = "\n" if last else ""
+            result = f"{result}{space_before}{header}{space_after}{newline}"
+        result = result + "".join(["---|"] * len(self._headers))[:-1] + "\n"
+        for row in self._rows:
+            for value_index, value in enumerate(row):
+                if value_index >= len(self._headers):
+                    break
+                first = value_index == 0
+                last = value_index == len(self._headers) - 1
+                space_before = "" if first else " "
+                space_after = "" if last else " |"
+                newline = "\n" if last else ""
+                result = f"{result}{space_before}{value}{space_after}{newline}"
+        return result
+
+
 def generate_dependencies_list(filepath: Path, mods: list[Dependency]) -> bool:
-    deplist: str = "Dependencies:\n\n"
+    """
+    Generates a table of dependencies and writes them to a file
+    """
+    tablebuilder = TableBuilder().add_headers(["Mod Name", "File", "Version"])
     for mod in mods:
         if isinstance(mod, URLDependency):
-            deplist += f"- [{mod.jar_name}]({mod.url})\n"
+            tablebuilder.add_row(
+                [mod.url.rsplit("/", 1)[1], f"[{mod.jar_name}]({mod.url})", mod.version]
+            )
+    tablebuilder.sort_rows("Mod Name")
     with filepath.open("w", encoding="UTF-8") as file:
-        file.write(deplist)
+        file.write(f"Dependencies:\n\n{tablebuilder.build()}")
     return True
 
 

@@ -39,7 +39,7 @@ jobs:
 
       - name: Python type checking
         run: |
-          python -m mypy --verbose .
+          python -m mypy .
 
       - name: Install Mod dependencies
         run: python download_mods.py

@@ -351,6 +351,7 @@ def main() -> None:
         dependency_from_json(mod)
         for mod in json.load((modlist_path).open("r", encoding="UTF-8"))
     ]
+    mod_list.sort(key=lambda mod: mod.jar_name.lower())
     success_count = 0
     skip_count = 0
     error_count = 0

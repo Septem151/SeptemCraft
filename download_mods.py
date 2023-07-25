@@ -127,7 +127,7 @@ class GitHubDependency(Dependency):
         mod_path = local_path / self._jar_name
         asset_url = (
             f"{self.api_base_url}/repos/{self.author}/{self.repo}"
-            "/releases/assets/{self.asset}"
+            f"/releases/assets/{self.asset}"
         )
         asset_request = requests.get(
             asset_url,

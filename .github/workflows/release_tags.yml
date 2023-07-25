@@ -56,9 +56,9 @@ jobs:
         id: bundle
         uses: montudor/action-zip@v1
         with:
-          args:
-            zip -qq -r build/${GITHUB_REPOSITORY##*/}-${RELEASE_VERSION}-server.zip \
-            mods modlist.json
+          args: >
+            zip -r "build/${GITHUB_REPOSITORY##*/}-${RELEASE_VERSION}-server.zip" \
+              mods modlist.json
 
       - name: Delete old release if exists
         run: gh release delete --yes "${RELEASE_VERSION}"

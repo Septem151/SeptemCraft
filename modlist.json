@@ -2,649 +2,600 @@
   {
     "source": "github",
     "data": {
-      "url": "https://github.com/GTNewHorizons/BugTorch",
-      "repo_name": "GTNewHorizons/BugTorch",
-      "asset": 108112588,
-      "jar_name": "bugtorch-1.2.10-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/BuildCraft",
-      "repo_name": "GTNewHorizons/BuildCraft",
-      "asset": 117828838,
-      "jar_name": "buildcraft-7.1.36.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/BuildCraftCompat",
-      "repo_name": "GTNewHorizons/BuildCraftCompat",
-      "asset": 105828891,
-      "jar_name": "buildcraft-compat-7.1.14.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/CookingForBlockheads",
-      "repo_name": "GTNewHorizons/CookingForBlockheads",
-      "asset": 117701312,
-      "jar_name": "CookingForBlockheads-1.2.16-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/DefaultWorldGenerator",
-      "repo_name": "GTNewHorizons/DefaultWorldGenerator",
-      "asset": 75679455,
-      "jar_name": "defaultworldgenerator-1.7.10-0.2.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Custom-Main-Menu",
-      "repo_name": "GTNewHorizons/Custom-Main-Menu",
-      "asset": 92383209,
-      "jar_name": "custommainmenu-1.7.10-1.9.4.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/DefaultServerList",
-      "repo_name": "GTNewHorizons/DefaultServerList",
-      "asset": 80803903,
-      "jar_name": "defaultserverlist-1.7.10-1.4.0.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/DuraDisplay",
-      "repo_name": "GTNewHorizons/DuraDisplay",
-      "asset": 112072402,
-      "jar_name": "duradisplay-1.0.8.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/EnderStorage",
-      "repo_name": "GTNewHorizons/EnderStorage",
-      "asset": 73255412,
-      "jar_name": "EnderStorage-1.7.10-1.4.12.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Default-Configs",
-      "repo_name": "GTNewHorizons/Default-Configs",
-      "asset": 116569957,
-      "jar_name": "defaultkeys-1.1.0.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/HelpFixer",
-      "repo_name": "GTNewHorizons/HelpFixer",
-      "asset": 88685403,
-      "jar_name": "HelpFixer-1.7.10-1.1.0.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Hodgepodge",
-      "repo_name": "GTNewHorizons/Hodgepodge",
-      "asset": 117828925,
-      "jar_name": "hodgepodge-2.2.25.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/HungerOverhaul",
-      "repo_name": "GTNewHorizons/HungerOverhaul",
-      "asset": 56640514,
-      "jar_name": "HungerOverhaul-1.7.10-1.0.4-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/InGame-Info-XML",
-      "repo_name": "GTNewHorizons/InGame-Info-XML",
-      "asset": 115548328,
-      "jar_name": "InGameInfoXML-2.8.4.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/inventory-tweaks",
-      "repo_name": "GTNewHorizons/inventory-tweaks",
-      "asset": 93773739,
-      "jar_name": "inventorytweaks-1.5.16.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/ironchest",
-      "repo_name": "GTNewHorizons/ironchest",
-      "asset": 68490587,
-      "jar_name": "IronChest-1.7.10-6.0.71.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/itlt",
-      "repo_name": "GTNewHorizons/itlt",
-      "asset": 88164767,
-      "jar_name": "itlt-1.7.10-1.0.4.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Jabba",
-      "repo_name": "GTNewHorizons/Jabba",
-      "asset": 93561103,
-      "jar_name": "JABBA-1.2.22.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Mantle",
-      "repo_name": "GTNewHorizons/Mantle",
-      "asset": 109111721,
-      "jar_name": "Mantle-0.3.7.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Mobs-Info",
-      "repo_name": "GTNewHorizons/Mobs-Info",
-      "asset": 117127446,
-      "jar_name": "mobsinfo-0.0.7-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/MouseTweaks",
-      "repo_name": "GTNewHorizons/MouseTweaks",
-      "asset": 95813372,
-      "jar_name": "MouseTweaks-2.4.8-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/NEI-Integration",
-      "repo_name": "GTNewHorizons/NEI-Integration",
-      "asset": 117342193,
-      "jar_name": "NEIIntegration-1.3.3.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/neiaddons",
-      "repo_name": "GTNewHorizons/neiaddons",
-      "asset": 81320900,
-      "jar_name": "NEIAddons-1.7.10-1.12.22.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/NetherPortalFix",
-      "repo_name": "GTNewHorizons/NetherPortalFix",
-      "asset": 91976129,
-      "jar_name": "netherportalfix-1.7.10-1.1.2.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Netty-Patcher",
-      "repo_name": "GTNewHorizons/Netty-Patcher",
-      "asset": 56698166,
-      "jar_name": "NettyPatch-1.7.10-0.3.1.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/NotEnoughEnergistics",
-      "repo_name": "GTNewHorizons/NotEnoughEnergistics",
-      "asset": 110224039,
-      "jar_name": "NotEnoughEnergistics-1.4.2.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/NotEnoughItems",
-      "repo_name": "GTNewHorizons/NotEnoughItems",
-      "asset": 118223813,
-      "jar_name": "NotEnoughItems-2.3.79-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Nutrition",
-      "repo_name": "GTNewHorizons/Nutrition",
-      "asset": 118273403,
-      "jar_name": "nutrition-0.0.3.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/oauth",
-      "repo_name": "GTNewHorizons/oauth",
-      "asset": 57049118,
-      "jar_name": "oauth-1.7.10-1.06.1-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/OpenBlocks",
-      "repo_name": "GTNewHorizons/OpenBlocks",
-      "asset": 100011479,
-      "jar_name": "OpenBlocks-1.7.0-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/OpenModsLib",
-      "repo_name": "GTNewHorizons/OpenModsLib",
-      "asset": 58362082,
-      "jar_name": "OpenModsLibs-1.7.10-0.10.6.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Opis",
-      "repo_name": "GTNewHorizons/Opis",
-      "asset": 91975869,
-      "jar_name": "Opis-1.7.10-1.3.8-mapless.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/OverloadedArmorBar",
-      "repo_name": "GTNewHorizons/OverloadedArmorBar",
-      "asset": 56639479,
-      "jar_name": "overloadedarmorbar-1.7.10-1.0.1.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Realistic-World-Gen",
-      "repo_name": "GTNewHorizons/Realistic-World-Gen",
-      "asset": 89191391,
-      "jar_name": "RWG-1.7.10-alpha-1.3.3.2.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Schematica",
-      "repo_name": "GTNewHorizons/Schematica",
-      "asset": 98970279,
-      "jar_name": "Schematica-1.9.3-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/SleepingBags",
-      "repo_name": "GTNewHorizons/SleepingBags",
-      "asset": 79709076,
-      "jar_name": "sleepingbag-1.7.10-0.1.4.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/SpiceOfLife",
-      "repo_name": "GTNewHorizons/SpiceOfLife",
-      "asset": 107753892,
-      "jar_name": "SpiceOfLife-2.1.0-carrot.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/StorageDrawers",
-      "repo_name": "GTNewHorizons/StorageDrawers",
-      "asset": 110282556,
-      "jar_name": "StorageDrawers-1.12.0-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty",
-      "repo_name": "GTNewHorizons/StorageDrawers-BiomesOPlenty",
-      "asset": 76102748,
-      "jar_name": "StorageDrawersBop-1.7.10-1.11.17-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/TiC-Tooltips",
-      "repo_name": "GTNewHorizons/TiC-Tooltips",
-      "asset": 113256238,
-      "jar_name": "TiCTooltips-1.2.11.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/TinkersConstruct",
-      "repo_name": "GTNewHorizons/TinkersConstruct",
-      "asset": 117116611,
-      "jar_name": "TConstruct-1.9.39-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/TooMuchLoot",
-      "repo_name": "GTNewHorizons/TooMuchLoot",
-      "asset": 51504450,
-      "jar_name": "TooMuchLoot-1.7.10-4.1.0-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/ToroHealth",
-      "repo_name": "GTNewHorizons/ToroHealth",
-      "asset": 56639791,
-      "jar_name": "torohealth-1.7.10-1.0.1.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/waila",
-      "repo_name": "GTNewHorizons/waila",
-      "asset": 107001327,
-      "jar_name": "Waila-1.6.0.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/WailaHarvestability",
-      "repo_name": "GTNewHorizons/WailaHarvestability",
-      "asset": 56524758,
-      "jar_name": "WailaHarvestability-1.7.10-1.1.10-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/WAILAPlugins",
-      "repo_name": "GTNewHorizons/WAILAPlugins",
-      "asset": 104239864,
-      "jar_name": "WAILAPlugins-0.2.8.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/EnderCore",
-      "repo_name": "GTNewHorizons/EnderCore",
-      "asset": 111839448,
-      "jar_name": "endercore-0.2.16.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/WAWLA",
-      "repo_name": "GTNewHorizons/WAWLA",
-      "asset": 56640319,
-      "jar_name": "Wawla-1.7.10-1.1.3-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/WirelessCraftingTerminal",
-      "repo_name": "GTNewHorizons/WirelessCraftingTerminal",
-      "asset": 109804865,
-      "jar_name": "WirelessCraftingTerminal-1.9.2.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework",
-      "repo_name": "GTNewHorizons/AE2FluidCraft-Rework",
-      "asset": 118383798,
-      "jar_name": "ae2fc-1.1.34-gtnh.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/ae2stuff",
-      "repo_name": "GTNewHorizons/ae2stuff",
-      "asset": 113397026,
-      "jar_name": "ae2stuff-0.5.2-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/bdlib",
-      "repo_name": "GTNewHorizons/bdlib",
-      "asset": 68285600,
-      "jar_name": "bdlib-1.7.10-1.9.8-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/AppleCore",
-      "repo_name": "GTNewHorizons/AppleCore",
-      "asset": 94767845,
-      "jar_name": "AppleCore-3.2.10.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial",
-      "repo_name": "GTNewHorizons/Applied-Energistics-2-Unofficial",
-      "asset": 117400647,
-      "jar_name": "appliedenergistics2-rv3-beta-240-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/BetterQuesting",
-      "repo_name": "GTNewHorizons/BetterQuesting",
-      "asset": 118371309,
-      "jar_name": "BetterQuesting-3.3.25-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/BetterP2P",
-      "repo_name": "GTNewHorizons/BetterP2P",
-      "asset": 117402167,
-      "jar_name": "betterp2p-1.1.15.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Forgelin",
-      "repo_name": "GTNewHorizons/Forgelin",
-      "asset": 93519755,
-      "jar_name": "forgelin-1.9.7-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/BetterBuildersWands",
-      "repo_name": "GTNewHorizons/BetterBuildersWands",
-      "asset": 93297024,
-      "jar_name": "BetterBuildersWands-1.7.10-0.9.6-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/BetterCrashes",
-      "repo_name": "GTNewHorizons/BetterCrashes",
-      "asset": 111113625,
-      "jar_name": "bettercrashes-1.2.2-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/LegacyModdingMC/UniMixins",
-      "repo_name": "LegacyModdingMC/UniMixins",
-      "asset": 113669486,
-      "jar_name": "+unimixins-all-1.7.10-0.1.11.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Chisel",
-      "repo_name": "GTNewHorizons/Chisel",
-      "asset": 113280340,
-      "jar_name": "chisel-2.11.3-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/ChiselTones",
-      "repo_name": "GTNewHorizons/ChiselTones",
-      "asset": 70734463,
-      "jar_name": "chiseltones-1.7.10-1.0.4-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/CodeChickenCore",
-      "repo_name": "GTNewHorizons/CodeChickenCore",
-      "asset": 94135295,
-      "jar_name": "CodeChickenCore-1.1.11.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Controlling",
-      "repo_name": "GTNewHorizons/Controlling",
-      "asset": 94769594,
-      "jar_name": "controlling-1.0.0.5.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/EnderZoo",
-      "repo_name": "GTNewHorizons/EnderZoo",
-      "asset": 56698392,
-      "jar_name": "EnderZoo-1.7.10-1.0.23.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/NaturesCompass",
-      "repo_name": "GTNewHorizons/NaturesCompass",
-      "asset": 78906089,
-      "jar_name": "naturescompass-1.7.10-1.3.6-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/NotEnoughIds",
-      "repo_name": "GTNewHorizons/NotEnoughIds",
-      "asset": 93297875,
-      "jar_name": "notenoughIDs-1.7.10-1.4.6.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/Roguelike-Dungeons",
-      "repo_name": "GTNewHorizons/Roguelike-Dungeons",
-      "asset": 59693101,
-      "jar_name": "roguelike-1.7.10-1.5.3-GTNH.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/SpecialMobs",
-      "repo_name": "GTNewHorizons/SpecialMobs",
-      "asset": 117662543,
-      "jar_name": "SpecialMobs-3.4.3.jar"
+      "url": "https://github.com/jss2a98aj/BugTorch",
+      "tag": "1.2.9",
+      "filename": "bugtorch-1.2.9.jar"
     }
   },
   {
     "source": "github",
     "data": {
       "url": "https://github.com/makamys/Neodymium",
-      "repo_name": "makamys/Neodymium",
-      "asset": 108475396,
-      "jar_name": "neodymium-1.7.10-0.1.8.4+nomixin.jar"
-    }
-  },
-  {
-    "source": "github",
-    "data": {
-      "url": "https://github.com/GTNewHorizons/WanionLib",
-      "repo_name": "GTNewHorizons/WanionLib",
-      "asset": 94940938,
-      "jar_name": "WanionLib-1.8.4.jar"
+      "tag": "0.1.8.4",
+      "filename": "neodymium-1.7.10-0.1.8.4+nomixin.jar"
     }
   },
   {
     "source": "github",
     "data": {
       "url": "https://github.com/Septem151/SeptemTweaks",
-      "repo_name": "Septem151/SeptemTweaks",
-      "asset": 118333583,
-      "jar_name": "septemtweaks-0.2.3-beta.jar"
+      "tag": "0.2.3-beta",
+      "filename": "septemtweaks-0.2.3-beta.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/NEI-Integration",
+      "tag": "1.3.3",
+      "filename": "NEIIntegration-1.3.3.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/Netty-Patcher",
+      "tag": "0.3.1",
+      "filename": "NettyPatch-1.7.10-0.3.1.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/Nutrition",
+      "tag": "0.0.3",
+      "filename": "nutrition-0.0.3.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/Opis",
+      "tag": "1.3.8-mapless",
+      "filename": "Opis-1.7.10-1.3.8-mapless.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/OverloadedArmorBar",
+      "tag": "1.0.1",
+      "filename": "overloadedarmorbar-1.7.10-1.0.1.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/Realistic-World-Gen",
+      "tag": "alpha-1.3.3.2",
+      "filename": "RWG-1.7.10-alpha-1.3.3.2.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/SleepingBags",
+      "tag": "0.1.4",
+      "filename": "sleepingbag-1.7.10-0.1.4.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/StorageDrawers",
+      "tag": "1.12.0-GTNH",
+      "filename": "StorageDrawers-1.12.0-GTNH.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty",
+      "tag": "1.11.17-GTNH",
+      "filename": "StorageDrawersBop-1.7.10-1.11.17-GTNH.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/ToroHealth",
+      "tag": "1.0.1",
+      "filename": "torohealth-1.7.10-1.0.1.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/WirelessCraftingTerminal",
+      "tag": "1.9.2",
+      "filename": "WirelessCraftingTerminal-1.9.2.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework",
+      "tag": "1.1.34-gtnh",
+      "filename": "ae2fc-1.1.34-gtnh.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/ae2stuff",
+      "tag": "0.5.2-GTNH",
+      "filename": "ae2stuff-0.5.2-GTNH.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/bdlib",
+      "tag": "1.9.8-GTNH",
+      "filename": "bdlib-1.7.10-1.9.8-GTNH.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/BetterQuesting",
+      "tag": "3.3.25-GTNH",
+      "filename": "BetterQuesting-3.3.25-GTNH.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/BetterCrashes",
+      "tag": "1.2.2-GTNH",
+      "filename": "bettercrashes-1.2.2-GTNH.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/Chisel",
+      "tag": "2.11.3-GTNH",
+      "filename": "chisel-2.11.3-GTNH.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/EnderZoo",
+      "tag": "1.0.23",
+      "filename": "EnderZoo-1.7.10-1.0.23.jar"
+    }
+  },
+  {
+    "source": "github",
+    "data": {
+      "url": "https://github.com/GTNewHorizons/NaturesCompass",
+      "tag": "1.3.6-GTNH",
+      "filename": "naturescompass-1.7.10-1.3.6-GTNH.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/buildcraft",
+      "project": 61811,
+      "file": 4055732,
+      "jar_name": "buildcraft-7.1.25.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/buildcraft-compat",
+      "project": 233140,
+      "file": 3538654,
+      "jar_name": "buildcraft-compat-7.1.8.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads",
+      "project": 231484,
+      "file": 2299135,
+      "jar_name": "cookingbook-mc1.7.10-1.0.140.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/default-world-generator",
+      "project": 226188,
+      "file": 2225179,
+      "jar_name": "DefaultWorldGenerator-1.7.10-0.1-b13-universal.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu",
+      "project": 226406,
+      "file": 2264779,
+      "jar_name": "CustomMainMenu-MC1.7.10-1.9.2.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/defaultserverlist",
+      "project": 577749,
+      "file": 4026995,
+      "jar_name": "defaultserverlist-1.7.10-1.4.0.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ender-storage",
+      "project": 229306,
+      "file": 2262092,
+      "jar_name": "EnderStorage-1.7.10-1.4.7.37-universal.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/default-options",
+      "project": 232131,
+      "file": 2277197,
+      "jar_name": "defaultkeys-mc1.7.10-1.0.28.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/helpfixer",
+      "project": 223797,
+      "file": 2223813,
+      "jar_name": "HelpFixer-1.0.7.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/hodgepodge",
+      "project": 688899,
+      "file": 4662710,
+      "jar_name": "hodgepodge-2.2.26.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/gtnhlib",
+      "project": 688894,
+      "file": 4413043,
+      "jar_name": "gtnhlib-0.0.13.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/unimixins",
+      "project": 826970,
+      "file": 4600285,
+      "jar_name": "+unimixins-all-1.7.10-0.1.11.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul",
+      "project": 224476,
+      "file": 2332505,
+      "jar_name": "HungerOverhaul-1.7.10-1.0.0.jenkins104.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/applecore-unofficial",
+      "project": 782158,
+      "file": 4386571,
+      "jar_name": "AppleCore-3.2.10.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ingame-info-xml",
+      "project": 225604,
+      "file": 2489566,
+      "jar_name": "InGameInfoXML-1.12.2-2.8.2.94-universal.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks",
+      "project": 223094,
+      "file": 2210792,
+      "jar_name": "InventoryTweaks-1.59-dev-152.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/iron-chests",
+      "project": 228756,
+      "file": 2230908,
+      "jar_name": "ironchest-1.7.10-6.0.62.742-universal.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/its-the-little-things",
+      "project": 232791,
+      "file": 3335234,
+      "jar_name": "itlt-1.7.x-1.0.3.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jabba",
+      "project": 73510,
+      "file": 2302354,
+      "jar_name": "Jabba-1.2.2_1.7.10.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mantle",
+      "project": 74924,
+      "file": 2264244,
+      "jar_name": "Mantle-1.7.10-0.3.2b.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mobs-info",
+      "project": 879914,
+      "file": 4645201,
+      "jar_name": "mobsinfo-0.0.8.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+      "project": 60089,
+      "file": 2209265,
+      "jar_name": "MouseTweaks-2.4.4-mc1.7.10.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/nei-addons",
+      "project": 63352,
+      "file": 2269749,
+      "jar_name": "neiaddons-1.12.15.41-mc1.7.10.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/netherportalfix",
+      "project": 241160,
+      "file": 2279400,
+      "jar_name": "netherportalfix-mc1.7.10-1.1.0.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/not-enough-energistics",
+      "project": 515565,
+      "file": 3661928,
+      "jar_name": "NotEnoughEnergistics-1.7.10-1.4.2.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/notenoughitems-gtnh",
+      "project": 358228,
+      "file": 4659731,
+      "jar_name": "NotEnoughItems-2.3.79-GTNH.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/codechickenlib-unofficial",
+      "project": 746280,
+      "file": 4388255,
+      "jar_name": "CodeChickenLib-1.1.8.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/codechickencore-unofficial",
+      "project": 746279,
+      "file": 4378043,
+      "jar_name": "CodeChickenCore-1.1.11.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/openblocks",
+      "project": 228816,
+      "file": 2386733,
+      "jar_name": "OpenBlocks-1.7.10-1.6.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/openmodslib",
+      "project": 228815,
+      "file": 2765573,
+      "jar_name": "OpenModsLib-1.7.10-0.10.1.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/schematica",
+      "project": 225603,
+      "file": 2274295,
+      "jar_name": "Schematica-1.7.10-1.7.6.131-universal.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition-unofficial",
+      "project": 782155,
+      "file": 4533331,
+      "jar_name": "SpiceOfLife-2.1.0-carrot.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/tic-tooltips",
+      "project": 76845,
+      "file": 2246472,
+      "jar_name": "TiCTooltips-mc1.7.10-1.2.5.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct",
+      "project": 74072,
+      "file": 2264246,
+      "jar_name": "TConstruct-1.7.10-1.8.8.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/toomuchloot",
+      "project": 220845,
+      "file": 2261887,
+      "jar_name": "TooMuchLoot-1.7.10-4.0.1.B0.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/waila",
+      "project": 73488,
+      "file": 2230518,
+      "jar_name": "Waila-1.5.10_1.7.10.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/wawla",
+      "project": 224712,
+      "file": 2298772,
+      "jar_name": "Wawla-1.0.5.120.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/waila-harvestability",
+      "project": 79287,
+      "file": 2270923,
+      "jar_name": "WailaHarvestability-mc1.7.10-1.1.6.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/waila-plugins",
+      "project": 226119,
+      "file": 2351717,
+      "jar_name": "WAILAPlugins-MC1.7.10-0.2.0-25.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/endercore",
+      "project": 231868,
+      "file": 2331048,
+      "jar_name": "EnderCore-1.7.10-0.2.0.39_beta.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2",
+      "project": 223794,
+      "file": 2296430,
+      "jar_name": "appliedenergistics2-rv3-beta-6.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/better-builders-wands",
+      "project": 238403,
+      "file": 2356820,
+      "jar_name": "BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/chiseltones",
+      "project": 228004,
+      "file": 2254543,
+      "jar_name": "ChiselTones-1.7.10-1.0-3.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/roguelike-dungeons",
+      "project": 221585,
+      "file": 2294894,
+      "jar_name": "roguelike-1.7.10-1.5.0b.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
+      "project": 250398,
+      "file": 4173844,
+      "jar_name": "Controlling-1.7.10-1.0.0.4.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/special-mobs",
+      "project": 59968,
+      "file": 2279900,
+      "jar_name": "SpecialMobs-1.7.10-3.2.2.jar"
+    }
+  },
+  {
+    "source": "curseforge",
+    "data": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/wanionlib",
+      "project": 253043,
+      "file": 2430662,
+      "jar_name": "WanionLib-1.7.10-1.8.jar"
     }
   },
   {
@@ -679,8 +630,8 @@
     "data": {
       "url": "https://www.curseforge.com/minecraft/mc-mods/journeymap",
       "project": 32274,
-      "file": 4500658,
-      "jar_name": "journeymap-1.7.10-5.1.4p6-unlimited.jar"
+      "file": 4500659,
+      "jar_name": "journeymap-1.7.10-5.1.4p6-fairplay.jar"
     }
   },
   {

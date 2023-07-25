@@ -62,13 +62,13 @@ class Dependency(ABC):
         """
 
     @abstractmethod
-    def download(self, local_path: Path) -> DownloadStatus:
+    def download(self, mod_dir: Path) -> DownloadStatus:
         """
         Default check to see if mod already exists.
         Downloads the file to local_path.
         MUST BE IMPLEMENTED BY CLASS
         """
-        mod_path = local_path / self.jar_name
+        mod_path = mod_dir / self.jar_name
         if mod_path.exists():
             print(f"Skipping download of {self.source} mod, file exists at {mod_path}")
             return DownloadStatus.SKIPPED
@@ -86,15 +86,12 @@ class Dependency(ABC):
 
 class GitHubDependency(Dependency):
     """
-    JSON Schema:
     {
         "source": "github",
         "data": {
             "url": string,
-            "author": string,
-            "repo": string,
-            "asset": integer,
-            "jar_name": string
+            "tag": string,
+            "filename": string
         }
     }
     """
@@ -102,11 +99,11 @@ class GitHubDependency(Dependency):
     api_key: str = os.getenv("GH_TOKEN", "")
     api_base_url: str = "https://api.github.com"
 
-    def __init__(self, url: str, repo_info: str, asset: int, jar_name: str) -> None:
+    def __init__(self, url: str, tag: str, filename: str) -> None:
         self.url = url
-        self.author, self.repo = repo_info.split("/", 1)
-        self.asset = asset
-        self._jar_name = jar_name
+        self.tag = tag
+        self.filename = filename
+        self.owner, self.repo = self.url.removesuffix(".git").rsplit("/", 2)[-2:]
 
     @property
     def headers(self) -> dict[str, Any]:
@@ -118,37 +115,49 @@ class GitHubDependency(Dependency):
 
     @property
     def jar_name(self) -> str:
-        return self._jar_name
+        return self.filename
 
-    def download(self, local_path: Path) -> DownloadStatus:
-        status = super().download(local_path)
+    def download(self, mod_dir: Path) -> DownloadStatus:
+        status = super().download(mod_dir)
         if status == DownloadStatus.SKIPPED:
             return status
-        mod_path = local_path / self._jar_name
-        asset_url = (
-            f"{self.api_base_url}/repos/{self.author}/{self.repo}"
-            f"/releases/assets/{self.asset}"
-        )
+        mod_path = mod_dir / self.filename
+        asset_url = f"{self.api_base_url}/repos/{self.owner}/{self.repo}/releases/tags/{self.tag}"
         asset_request = requests.get(
             asset_url,
             timeout=5,
-            headers=self.headers | {"Accept": "application/octet-stream"},
+            headers=self.headers | {"Accept": "application/vnd.github+json"},
         )
         if asset_request.status_code != 200:
-            print(f"Download of {self._jar_name} failed! ({asset_url})")
+            print(f"Download of {self.filename} failed! ({asset_url})")
             return DownloadStatus.ERROR
-        with mod_path.open("wb") as mod_file:
-            mod_file.write(asset_request.content)
+        assets: list[dict[str, Any]] = asset_request.json()["assets"]
+        for asset in assets:
+            partname: str = asset["name"]
+            if partname != self.filename:
+                continue
+            asset_url = (
+                f"{self.api_base_url}/repos/{self.owner}/{self.repo}"
+                f"/releases/assets/{asset['id']}"
+            )
+            asset_request = requests.get(
+                asset_url,
+                headers=self.headers | {"Accept": "application/octet-stream"},
+                timeout=5,
+            )
+            if asset_request.status_code != 200:
+                print(f"Download of {self.filename} failed! ({asset_url})")
+                return DownloadStatus.ERROR
+            with mod_path.open("wb") as mod_file:
+                mod_file.write(asset_request.content)
         return DownloadStatus.SUCCESS
 
     def to_json(self) -> dict[str, Any]:
         return super().to_json() | {
             "data": {
                 "url": self.url,
-                "author": self.author,
-                "repo": self.repo,
-                "asset": self.asset,
-                "jar_name": self._jar_name,
+                "tag": self.tag,
+                "filename": self.filename,
             }
         }
 
@@ -188,11 +197,11 @@ class CurseForgeDependency(Dependency):
     def jar_name(self) -> str:
         return self._jar_name
 
-    def download(self, local_path: Path) -> DownloadStatus:
-        status = super().download(local_path)
+    def download(self, mod_dir: Path) -> DownloadStatus:
+        status = super().download(mod_dir)
         if status == DownloadStatus.SKIPPED:
             return status
-        mod_path = local_path / self._jar_name
+        mod_path = mod_dir / self._jar_name
         asset_url = (
             f"{self.api_base_url}/mods/{self.project}/files/{self.file}/download-url"
         )
@@ -256,12 +265,12 @@ class LocalDependency(Dependency):
     def jar_name(self) -> str:
         return self._jar_name
 
-    def download(self, local_path: Path) -> DownloadStatus:
-        status = super().download(local_path)
+    def download(self, mod_dir: Path) -> DownloadStatus:
+        status = super().download(mod_dir)
         if status == DownloadStatus.SKIPPED:
             return status
         from_path = (Path(__file__).resolve().parent / self.path).absolute()
-        to_path = (local_path / self.jar_name).absolute()
+        to_path = (mod_dir / self.jar_name).absolute()
         shutil.copy(from_path, to_path)
         return DownloadStatus.SUCCESS
 
@@ -283,9 +292,8 @@ def dependency_from_json(json_data: dict[str, Any]) -> Dependency:
     if source == ModType.GITHUB:
         return GitHubDependency(
             data["url"],
-            data["repo_name"],
-            data["asset"],
-            data["jar_name"],
+            data["tag"],
+            data["filename"],
         )
     if source == ModType.CURSEFORGE:
         return CurseForgeDependency(

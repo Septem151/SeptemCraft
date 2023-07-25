@@ -433,11 +433,19 @@ def generate_dependencies_list(filepath: Path, mods: list[Dependency]) -> bool:
     """
     Generates a table of dependencies and writes them to a file
     """
-    tablebuilder = TableBuilder().add_headers(["Mod Name", "Version", "Link To Mod"])
-    for mod in mods:
+    tablebuilder = TableBuilder().add_headers(
+        ["\#", "Mod Name", "Version", "Link To Mod"]
+    )
+    mods.sort(
+        key=lambda mod: mod.url.rsplit("/", 1)[1].lower()
+        if isinstance(mod, URLDependency)
+        else mod.jar_name.removesuffix(".jar").lower()
+    )
+    for mod_index, mod in enumerate(mods):
         if isinstance(mod, URLDependency):
             tablebuilder.add_row(
                 [
+                    str(mod_index + 1),
                     mod.url.rsplit("/", 1)[1],
                     mod.version,
                     f"[{mod.source.upper()}]({mod.url})",
@@ -446,12 +454,12 @@ def generate_dependencies_list(filepath: Path, mods: list[Dependency]) -> bool:
         elif isinstance(mod, LocalDependency):
             tablebuilder.add_row(
                 [
+                    str(mod_index + 1),
                     mod.jar_name.removesuffix(".jar"),
                     mod.version,
                     f"[{mod.source.upper()}]({mod.path})",
                 ]
             )
-    tablebuilder.sort_rows("Mod Name")
     with filepath.open("w", encoding="UTF-8") as file:
         file.write(f"Dependencies:\n\n{tablebuilder.build()}")
     return True

@@ -978,15 +978,6 @@
   {
     "source": "curseforge",
     "data": {
-      "url": "https://www.curseforge.com/minecraft/mc-mods/extra-cells-2-samlam140330s-fork",
-      "project": 485225,
-      "file": 3378845,
-      "jar_name": "ExtraCells-1.7.10-2.4.0.jar"
-    }
-  },
-  {
-    "source": "curseforge",
-    "data": {
       "url": "https://www.curseforge.com/minecraft/mc-mods/ae2-fluid-crafting-rework",
       "project": 623955,
       "file": 4027445,

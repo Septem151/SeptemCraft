@@ -246,4 +246,3 @@ witchery.cfg/general/GUIOnLeft
 witchery.cfg/general/HUDShowVampireTargetBloodText
 witchery.cfg/general/MantrapOpacity
 witchery.cfg/general/Render3dGlintEffect
-

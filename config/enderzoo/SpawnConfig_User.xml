@@ -1,13 +1,13 @@
 <SpawnConfig>
-<!-- Enabling this section will stop all slime spawns
+  <!-- Enabling this section will stop all slime spawns
   <entry id="Slime" mobName="Slime" creatureType="monster" rate="80" remove="true">
     <biomeFilter type="any">
       <biome type="BASE_LAND_TYPES" />
     </biomeFilter>
   </entry>
- --> 
+ -->
 
-<!-- Enabling this section will remove the default wither witch spawn config and replace it with
+  <!-- Enabling this section will remove the default wither witch spawn config and replace it with
      a new config with a higher spawn rate
  <entry id="WitherWitch" mobName="enderzoo.WitherWitch" rate="5" remove="true">
     <biomeFilter type="any">

@@ -903,10 +903,6 @@ BiomesOPlenty:honey, Honey
 BuildCraft|Core:eternalSpring:0, Water Spring
 BuildCraft|Core:eternalSpring:1, Oil Spring
 BuildCraft|Core:buildToolBlock, tile.buildToolBlock.name
-BuildCraft|Core:engineBlock:0, Redstone Engine
-BuildCraft|Core:engineBlock:1, Stirling Engine
-BuildCraft|Core:engineBlock:2, Combustion Engine
-BuildCraft|Core:engineBlock:3, Creative Engine
 BuildCraft|Core:markerBlock, Land Mark
 BuildCraft|Core:pathMarkerBlock, Path Mark
 BuildCraft|Builders:machineBlock, Quarry
@@ -933,7 +929,6 @@ BuildCraft|Transport:filteredBufferBlock, Filtered Buffer
 BuildCraft|Transport:pipeBlock, tile.pipeBlock.name
 BuildCraft|Factory:miningWellBlock, Mining Well
 BuildCraft|Factory:plainPipeBlock, Mining Pipe
-BuildCraft|Factory:autoWorkbenchBlock, Auto Workbench
 BuildCraft|Factory:tankBlock, Tank
 BuildCraft|Factory:pumpBlock, Pump
 BuildCraft|Factory:floodGateBlock, Flood Gate
@@ -2998,17 +2993,10 @@ Ztones:tile.ztylBlock:14, Ztyl ⑭
 Ztones:tile.ztylBlock:15, Ztyl ⑮
 endercrop:ender_crop, Ender Crop
 endercrop:tilled_end_stone, Tilled End Stone
-extracells:certustank, extracells.block.certustank.name
-extracells:walrus, Walrus
-extracells:fluidcrafter, ME Fluid Assembler
-extracells:ecbaseblock:0, ME Fluid Interface
-extracells:ecbaseblock:1, ME Fluid Auto Filler
-extracells:hardmedrive, Blast resistant ME Drive [WIP]
-extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Entanglement Device)
+ExtraUtilities:endConstructor:0, QED (Quantum Ender Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -3820,10 +3808,6 @@ TConstruct:GlassPaneClearStained:12, Brown Stained Pane
 TConstruct:GlassPaneClearStained:13, Green Stained Pane
 TConstruct:GlassPaneClearStained:14, Red Stained Pane
 TConstruct:GlassPaneClearStained:15, Black Stained Pane
-TConstruct:Redstone.Landmine:0, Landmine
-TConstruct:Redstone.Landmine:1, Landmine
-TConstruct:Redstone.Landmine:2, Landmine
-TConstruct:Redstone.Landmine:3, Landmine
 TConstruct:Armor.DryingRack, Drying Rack
 NetherOres:tile.netherores.ore.0:0, Nether Coal Ore
 NetherOres:tile.netherores.ore.0:1, Nether Diamond Ore
@@ -7121,7 +7105,6 @@ ThermalExpansion:igniter, item.thermalexpansion.tool.name
 ThermalExpansion:chiller, item.thermalexpansion.tool.name
 ThermalExpansion:pump, item.thermalexpansion.tool.name
 ThermalExpansion:transfuser, item.thermalexpansion.tool.name
-ThermalExpansion:capacitor:0, Creative Flux Capacitor
 ThermalExpansion:capacitor:1, Tuberous Flux Capacitor
 ThermalExpansion:capacitor:2, Leadstone Flux Capacitor
 ThermalExpansion:capacitor:2, Leadstone Flux Capacitor
@@ -7131,7 +7114,6 @@ ThermalExpansion:capacitor:4, Redstone Flux Capacitor
 ThermalExpansion:capacitor:4, Redstone Flux Capacitor
 ThermalExpansion:capacitor:5, Resonant Flux Capacitor
 ThermalExpansion:capacitor:5, Resonant Flux Capacitor
-ThermalExpansion:satchel:0, Creative Satchel
 ThermalExpansion:satchel:1, Satchel
 ThermalExpansion:satchel:2, Hardened Satchel
 ThermalExpansion:satchel:3, Reinforced Satchel
@@ -7149,14 +7131,8 @@ chisel:obsidianChisel, Obsidian Chisel
 chisel:netherStarChisel, Nether Star Chisel
 chisel:cloudinabottle, Cloud In A Bottle
 chisel:smashingrock, Smashing Rock
-Ztones:hunger, MSG Pill
 Ztones:minicharcoal, Mini Charcoal
 Ztones:minicoal, Mini Coal
-Ztones:ofanix, Ofanix
-Ztones:diamondZane, Diamond Zane
-Ztones:splatAxe, Splat Axe
-Ztones:terrainEater, Terrain Eater
-Ztones:totemTool, Totem Tool
 claybucket:unfiredClaybucket, Unfired Clay Bucket
 claybucket:claybucket, Clay Bucket
 endercrop:ender_seeds, Ender Seeds
@@ -7171,61 +7147,6 @@ EnderZoo:witheringDust, Withering Dust
 EnderZoo:confusingDust, Confusing Powder
 EnderZoo:enderFragment, Ender Fragment
 EnderZoo:guardiansBow, Guardians Bow
-extracells:part.base:0, ME Fluid Export Bus
-extracells:part.base:1, ME Fluid Import Bus
-extracells:part.base:2, ME Fluid Storage Bus
-extracells:part.base:3, ME Fluid Terminal
-extracells:part.base:4, ME Fluid Level Emitter
-extracells:part.base:5, ME Fluid Annihilation Plane
-extracells:part.base:6, ME Fluid Formation Plane
-extracells:part.base:7, ME Drive Fixture
-extracells:part.base:8, ME Energy Cell Fixture
-extracells:part.base:9, ME Fluid Interface
-extracells:part.base:10, ME Fluid Storage Monitor
-extracells:part.base:11, ME Fluid Conversion Monitor
-extracells:part.base:12, ME Ore Dictionary Export Bus
-extracells:storage.fluid:0, ME 1k Fluid Storage
-extracells:storage.fluid:1, ME 4k Fluid Storage
-extracells:storage.fluid:2, ME 16k Fluid Storage
-extracells:storage.fluid:3, ME 64k Fluid Storage
-extracells:storage.fluid:4, ME 256k Fluid Storage
-extracells:storage.fluid:5, ME 1024k Fluid Storage
-extracells:storage.fluid:6, ME 4096k Fluid Storage
-extracells:storage.physical:0, ME 256k Storage
-extracells:storage.physical:1, ME 1024k Storage
-extracells:storage.physical:2, ME 4096k Storage
-extracells:storage.physical:3, ME 16384k Storage
-extracells:storage.physical:4, ME Block Container - Empty
-extracells:storage.physical:4, ME Block Container - Empty
-extracells:storage.gas:0, ME 1k Gas Storage
-extracells:storage.gas:1, ME 4k Gas Storage
-extracells:storage.gas:2, ME 16k Gas Storage
-extracells:storage.gas:3, ME 64k Gas Storage
-extracells:storage.gas:4, ME 256k Gas Storage
-extracells:storage.gas:5, ME 1024k Gas Storage
-extracells:storage.gas:6, ME 4096k Gas Storage
-extracells:pattern.fluid, item.extracells.pattern.fluid.name
-extracells:terminal.fluid.wireless, item.extracells.terminal.fluid.wireless.name
-extracells:storage.component:0, 256k ME Storage Component
-extracells:storage.component:1, 1024k ME Storage Component
-extracells:storage.component:2, 4096k ME Storage Component
-extracells:storage.component:3, 16384k ME Storage Component
-extracells:storage.component:4, 1k ME Fluid Storage Component
-extracells:storage.component:5, 4k ME Fluid Storage Component
-extracells:storage.component:6, 16k ME Fluid Storage Component
-extracells:storage.component:7, 64k ME Fluid Storage Component
-extracells:storage.component:8, 256k ME Fluid Storage Component
-extracells:storage.component:9, 1024k ME Fluid Storage Component
-extracells:storage.component:10, 4096k ME Fluid Storage Component
-extracells:storage.casing:0, Advanced Storage Housing
-extracells:storage.casing:1, Fluid Storage Housing
-extracells:fluid.item, item.extracells.fluid.item.name
-extracells:storage.fluid.portable, item.extracells.storage.fluid.portable.name
-extracells:storage.gas.portable, item.extracells.storage.gas.portable.name
-extracells:pattern.crafting, item.extracells.pattern.crafting.name
-extracells:terminal.universal.wireless, item.extracells.terminal.universal.wireless.name
-extracells:terminal.gas.wireless, item.extracells.terminal.gas.wireless.name
-extracells:oc.upgrade, ME Upgrade
 ExtraUtilities:glove, Glove
 ExtraUtilities:heatingElement, Heating Coil
 ExtraUtilities:mini-soul:0, Soul fragment
@@ -7288,6 +7209,9 @@ JABBA:upgradeStructural:3, item.upgrade.structural.4.name
 JABBA:upgradeStructural:4, item.upgrade.structural.5.name
 JABBA:upgradeStructural:5, item.upgrade.structural.6.name
 JABBA:upgradeStructural:6, item.upgrade.structural.7.name
+JABBA:upgradeStructural:7, item.upgrade.structural.8.name
+JABBA:upgradeStructural:8, item.upgrade.structural.9.name
+JABBA:upgradeStructural:9, item.upgrade.structural.10.name
 JABBA:upgradeCore:0, Storage upgrade
 JABBA:upgradeCore:1, BSpace upgrade
 JABBA:upgradeCore:2, Redstone upgrade

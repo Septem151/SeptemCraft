@@ -1,0 +1,112 @@
+{
+  "category": "mineshaftCorridor",
+  "count_min": 3,
+  "count_max": 7,
+  "loot": [
+    {
+      "item": "minecraft:iron_ingot",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 5
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:redstone",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 4,
+      "count_max": 9
+    },
+    {
+      "item": "minecraft:dye",
+      "damage": 4,
+      "weight": 5,
+      "count_min": 4,
+      "count_max": 9
+    },
+    {
+      "item": "minecraft:diamond",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 2
+    },
+    {
+      "item": "minecraft:coal",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 3,
+      "count_max": 8
+    },
+    {
+      "item": "minecraft:bread",
+      "damage": 0,
+      "weight": 15,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:rail",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 4,
+      "count_max": 8
+    },
+    {
+      "item": "minecraft:melon_seeds",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 2,
+      "count_max": 4
+    },
+    {
+      "item": "minecraft:pumpkin_seeds",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 2,
+      "count_max": 4
+    },
+    {
+      "item": "minecraft:saddle",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:iron_horse_armor",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:enchanted_book",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "BiomesOPlenty:misc",
+      "damage": 1,
+      "weight": 25,
+      "count_min": 2,
+      "count_max": 8
+    },
+    {
+      "item": "BiomesOPlenty:plants",
+      "damage": 5,
+      "weight": 15,
+      "count_min": 4,
+      "count_max": 6
+    }
+  ]
+}
